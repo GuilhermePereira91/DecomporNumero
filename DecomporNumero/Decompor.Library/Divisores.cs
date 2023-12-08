@@ -1,4 +1,10 @@
-﻿namespace Decompor.Library
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Decompor.Library
 {
     public class Divisores
     {
@@ -8,7 +14,8 @@
         public List<int> DivisoresNaturais { get => _divisoresNaturais; }
         public List<int> DivisoresPrimos { get => _divisoresPrimos; }
 
-        public Divisores(int numero) {
+        public Divisores(int numero)
+        {
             _divisoresNaturais = ObterDivisores(numero);
             _divisoresPrimos = ObterDivisoresPrimos(numero);
         }
