@@ -76,5 +76,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Decompor.Library\Decompor.Library.csproj">
+      <Project>{823be99b-afc3-4f24-a70b-2aa2ca1b0f88}</Project>
+      <Name>Decompor.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
