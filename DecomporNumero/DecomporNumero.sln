@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecomporNumero", "DecomporNumero\DecomporNumero.csproj", "{F638C5E5-3B77-405D-979C-2089FD7CB315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F638C5E5-3B77-405D-979C-2089FD7CB315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F638C5E5-3B77-405D-979C-2089FD7CB315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F638C5E5-3B77-405D-979C-2089FD7CB315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F638C5E5-3B77-405D-979C-2089FD7CB315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28A25C58-465B-4217-A539-7BE3AAF592A6}
+	EndGlobalSection
+EndGlobal
