@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{41B63A24-3904-4847-B560-1025C7FDD659}</ProjectGuid>
+    <ProjectGuid>{823BE99B-AFC3-4F24-A70B-2AA2CA1B0F88}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Decompor.Library</RootNamespace>

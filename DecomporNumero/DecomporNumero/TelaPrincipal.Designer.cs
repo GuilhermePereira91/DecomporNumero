@@ -31,15 +31,15 @@
             this.components = new System.ComponentModel.Container();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.EntradaGroupBox = new System.Windows.Forms.GroupBox();
+            this.NumeroNumericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.InformacaoLabel2 = new System.Windows.Forms.Label();
+            this.InformacaoLabel1 = new System.Windows.Forms.Label();
+            this.DecomporNumeroButton = new System.Windows.Forms.Button();
             this.SaidaGroupBox = new System.Windows.Forms.GroupBox();
             this.SaidaTextBox = new System.Windows.Forms.TextBox();
-            this.DecomporNumeroButton = new System.Windows.Forms.Button();
-            this.InformacaoLabel1 = new System.Windows.Forms.Label();
-            this.InformacaoLabel2 = new System.Windows.Forms.Label();
-            this.NumeroNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.EntradaGroupBox.SuspendLayout();
-            this.SaidaGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NumeroNumericUpDown)).BeginInit();
+            this.SaidaGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -60,6 +60,46 @@
             this.EntradaGroupBox.TabStop = false;
             this.EntradaGroupBox.Text = "Entrada:";
             // 
+            // NumeroNumericUpDown
+            // 
+            this.NumeroNumericUpDown.Location = new System.Drawing.Point(6, 45);
+            this.NumeroNumericUpDown.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.NumeroNumericUpDown.Name = "NumeroNumericUpDown";
+            this.NumeroNumericUpDown.Size = new System.Drawing.Size(256, 20);
+            this.NumeroNumericUpDown.TabIndex = 4;
+            // 
+            // InformacaoLabel2
+            // 
+            this.InformacaoLabel2.AutoSize = true;
+            this.InformacaoLabel2.Location = new System.Drawing.Point(3, 29);
+            this.InformacaoLabel2.Name = "InformacaoLabel2";
+            this.InformacaoLabel2.Size = new System.Drawing.Size(309, 13);
+            this.InformacaoLabel2.TabIndex = 3;
+            this.InformacaoLabel2.Text = "2. Clique em decompor para obter os divisores naturais e primos.";
+            // 
+            // InformacaoLabel1
+            // 
+            this.InformacaoLabel1.AutoSize = true;
+            this.InformacaoLabel1.Location = new System.Drawing.Point(3, 16);
+            this.InformacaoLabel1.Name = "InformacaoLabel1";
+            this.InformacaoLabel1.Size = new System.Drawing.Size(216, 13);
+            this.InformacaoLabel1.TabIndex = 2;
+            this.InformacaoLabel1.Text = "1. Digite um número inteiro e maior que zero.";
+            // 
+            // DecomporNumeroButton
+            // 
+            this.DecomporNumeroButton.Location = new System.Drawing.Point(268, 45);
+            this.DecomporNumeroButton.Name = "DecomporNumeroButton";
+            this.DecomporNumeroButton.Size = new System.Drawing.Size(84, 20);
+            this.DecomporNumeroButton.TabIndex = 1;
+            this.DecomporNumeroButton.Text = "Decompor";
+            this.DecomporNumeroButton.UseVisualStyleBackColor = true;
+            this.DecomporNumeroButton.Click += new System.EventHandler(this.DecomporNumeroButton_Click);
+            // 
             // SaidaGroupBox
             // 
             this.SaidaGroupBox.Controls.Add(this.SaidaTextBox);
@@ -79,40 +119,6 @@
             this.SaidaTextBox.Size = new System.Drawing.Size(346, 198);
             this.SaidaTextBox.TabIndex = 0;
             // 
-            // DecomporNumeroButton
-            // 
-            this.DecomporNumeroButton.Location = new System.Drawing.Point(268, 45);
-            this.DecomporNumeroButton.Name = "DecomporNumeroButton";
-            this.DecomporNumeroButton.Size = new System.Drawing.Size(84, 20);
-            this.DecomporNumeroButton.TabIndex = 1;
-            this.DecomporNumeroButton.Text = "Decompor";
-            this.DecomporNumeroButton.UseVisualStyleBackColor = true;
-            // 
-            // InformacaoLabel1
-            // 
-            this.InformacaoLabel1.AutoSize = true;
-            this.InformacaoLabel1.Location = new System.Drawing.Point(3, 16);
-            this.InformacaoLabel1.Name = "InformacaoLabel1";
-            this.InformacaoLabel1.Size = new System.Drawing.Size(216, 13);
-            this.InformacaoLabel1.TabIndex = 2;
-            this.InformacaoLabel1.Text = "1. Digite um número inteiro e maior que zero.";
-            // 
-            // InformacaoLabel2
-            // 
-            this.InformacaoLabel2.AutoSize = true;
-            this.InformacaoLabel2.Location = new System.Drawing.Point(3, 29);
-            this.InformacaoLabel2.Name = "InformacaoLabel2";
-            this.InformacaoLabel2.Size = new System.Drawing.Size(309, 13);
-            this.InformacaoLabel2.TabIndex = 3;
-            this.InformacaoLabel2.Text = "2. Clique em decompor para obter os divisores naturais e primos.";
-            // 
-            // NumeroNumericUpDown
-            // 
-            this.NumeroNumericUpDown.Location = new System.Drawing.Point(6, 45);
-            this.NumeroNumericUpDown.Name = "NumeroNumericUpDown";
-            this.NumeroNumericUpDown.Size = new System.Drawing.Size(256, 20);
-            this.NumeroNumericUpDown.TabIndex = 4;
-            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -128,9 +134,9 @@
             this.Text = "Decompor Numero";
             this.EntradaGroupBox.ResumeLayout(false);
             this.EntradaGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NumeroNumericUpDown)).EndInit();
             this.SaidaGroupBox.ResumeLayout(false);
             this.SaidaGroupBox.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NumeroNumericUpDown)).EndInit();
             this.ResumeLayout(false);
 
         }
