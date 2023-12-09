@@ -24,7 +24,7 @@ namespace Decompor.Library
         {
             List<int> divisores = new List<int>();
 
-            for (int i = 0; i <= numero; i++)
+            for (int i = 1; i <= numero; i++)
             {
                 if (numero % i == 0)
                     divisores.Add(i);
