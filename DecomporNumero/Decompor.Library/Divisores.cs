@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Decompor.Library
 {
@@ -18,6 +14,11 @@ namespace Decompor.Library
         {
             _divisoresNaturais = ObterDivisores(numero);
             _divisoresPrimos = ObterDivisoresPrimos(numero);
+        }
+
+        public Divisores()
+        {
+
         }
 
         public List<int> ObterDivisores(int numero)
